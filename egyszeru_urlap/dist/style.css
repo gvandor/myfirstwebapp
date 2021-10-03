@@ -1,0 +1,32 @@
+input {
+  display: block;
+  border: 5px solid #52FF52;
+  border-radius: 10px;
+  width: 38%;
+  height:90px;
+  
+}
+label {
+  margin-left: 200px;
+  font-size: 30px;
+  font-family: 'Oxygen', sans-serif;
+  text-transform: uppercase;
+  
+}
+button {
+  margin: 0 200px;
+  font-size: 30px;
+  font-family: font-family: 'Oxygen', sans-serif;
+  text-transform: uppercase;
+  border-radius: 50px;
+  width: 15%;
+  height: 100px;
+  background: #52FF52;
+  border: 5px solid #52FF52;
+}
+#username {
+  margin: 10px 0 30px 200px;
+}
+#pwd {
+  margin: 10px 0 20px 200px;
+}

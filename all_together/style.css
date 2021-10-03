@@ -1,0 +1,40 @@
+header {
+  width: 60%;
+  height: 100px;
+  background: aqua;
+  margin: 0 auto;
+}
+.container {
+  width: 60%;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+}
+.left {
+  background: orange;
+  flex-grow: 1;
+}  
+main {
+  flex-grow: 3;
+  background: red;
+  position: relative;
+  margin: 0 25px;
+}
+.right {
+  flex-grow: 1;
+  background: purple;
+} 
+footer {
+  width: 60%;
+  height: 100px;
+  background: blue;
+  margin: 0 auto;
+}  
+.blackBox {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  background: black;
+}

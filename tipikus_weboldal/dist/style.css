@@ -1,0 +1,27 @@
+#middleButton {
+  width: 150px;
+}
+.headButton {
+  background: cyan;
+  height: 30px;
+  width: 100px;
+  margin-left: 15px;
+}
+header {
+  display: flex;
+  background: purple;
+  height: 50px;
+  align-items: center;
+}
+.container {
+  display: flex;
+  height: 500px;
+}
+.yellow {
+  background: yellow;
+  flex-grow: 4;
+}
+.lime {
+  background: lime;
+  flex-grow: 1;
+}

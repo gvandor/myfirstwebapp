@@ -1,0 +1,42 @@
+#middleButton {
+  width: 150px;
+}
+.headButton {
+  background: cyan;
+  height: 30px;
+  width: 100px;
+  margin-right: 20px;
+ 
+}
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  background: purple;
+  height: 70px;
+  align-items: center;
+  padding-left: 100px;
+}
+.container {
+  display: flex;
+  height: 500px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 70px;
+}
+.yellow {
+  background: yellow;
+  flex-grow: 4;
+}
+.lime {
+  background: lime;
+  flex-grow: 1;
+}
+.underSection {
+  display: flex;
+  background: lightgrey;
+  height: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+}

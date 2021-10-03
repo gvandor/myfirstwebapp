@@ -1,0 +1,17 @@
+.container {
+  padding-left: 20%;
+
+  
+}
+.foxLink {
+  display: block; 
+  color: green;
+  font-family: 'Sen', sans-serif;
+  font-size: 30px;
+  margin: 10px;
+  
+}
+a:hover {
+  color: lime;
+  text-decoration: none;
+}

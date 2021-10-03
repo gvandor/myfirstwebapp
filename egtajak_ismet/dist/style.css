@@ -1,0 +1,27 @@
+main {
+  border: 5px solid #4285f4;
+  text-align: center;
+  width: 300px;
+  margin-left: 100px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 900;
+  font-size: 40px;
+  color: white;
+  
+}
+.first {
+  background: #E67676;
+}
+.second {
+  background: #E67676;
+}
+.third {
+  background: #A9E6E6;
+}
+.fourth {
+  background: #A9E6E6;
+}
+p {
+  padding: 50px;
+  margin: 0px;  
+}

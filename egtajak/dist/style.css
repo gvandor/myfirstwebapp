@@ -1,0 +1,26 @@
+main {
+  border: 5px solid #4285f4;
+  text-align: center;
+  width: 300px;
+  margin-left: 100px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 900;
+  font-size: 40px;
+  color: white;
+}
+.N {
+  background: #E67676;
+}
+.E {
+  background: #F2F062;
+}
+.S {
+  background: #A9E6E6;
+}
+.W {
+  background: #7692E4;
+}
+p {
+  padding: 50px;
+  margin: 0px;  
+}

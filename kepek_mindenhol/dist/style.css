@@ -1,0 +1,13 @@
+.pictures {
+  width: 200px;
+  margin: 25px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.pictures:hover {
+ width: 400px;
+ margin: 0 0;
+}

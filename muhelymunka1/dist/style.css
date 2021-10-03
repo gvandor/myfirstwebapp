@@ -1,0 +1,28 @@
+div {
+  float: left;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  background: lime;
+  font-weight: bold;
+  font-size: 30px;
+  border-color: black;
+}
+.first {
+  background: ;
+  border-color: red;
+}
+.second {
+  background: white;
+}
+.third {
+  
+}
+.fourth {
+ border-color: blue;
+}
+.fifth {
+  background: yellow;
+  border-color: purple;
+}
