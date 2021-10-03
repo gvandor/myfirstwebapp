@@ -1,0 +1,153 @@
+.nav {
+  width: 100%;
+  height: 80px;
+  background: rgb(50 50 20);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 40px;
+}
+.nav ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+} 
+.nav li {
+  margin-right: 50px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: aqua;
+ }
+
+.sectionBio {
+  display: flex;
+  width: 100%;
+}
+
+.intro {
+  position: relative;
+} 
+img {
+  margin-top: 80px;
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+  object-position: -550px;
+} 
+.sectionBio .text {
+  margin-top: 80px;
+  padding: 0 30px;
+}  
+.sectionBio p {
+  margin-top: 0;
+  padding-top: 0;
+}
+.text {
+  width: 50%;
+  height: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  padding-top: 0;
+}
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+  color: black;
+  font-weight: bold;
+}
+.text h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: black;
+  font-size: 25px;
+  margin-top: 60px;
+  margin-bottom: 0;
+  line-height: 1;
+}
+.text h3 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  color: rbg(50 50 50);
+  margin-top: 0;
+}
+.hi {
+  position: absolute;
+  top: 270px;
+  left: 20px;
+}
+.anakin {
+  position: absolute;
+  top: 340px;
+  left: 150px;
+  font-size: 80px;
+}  
+.skywalker {
+  position: absolute;
+  top: 420px;
+  left: 200px;
+  font-size: 80px;
+}
+
+footer {
+  font-family: 'Teko', sans-serif;
+  font-size: 20px;
+  line-height: 2;
+}
+ul {
+  list-style-type: square;
+  padding-left: 100px;
+  margin-top: 2.2em;
+}
+
+section {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+blockquote {
+  margin-left: 0;
+  height: 500px;
+  width: 40%;
+  box-sizing: border-box;
+  background: rgb(50 50 50);
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 60px;
+  padding-top: 4%;
+  line-height: 2;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: left;
+  position: relative;
+  text-shadow: -1.5px 0 black;
+}
+.training blockquote {
+  padding-top: 4%;
+  line-height: 1.8;
+  height: 15em;
+}
+blockquote::before {
+  content: '“';
+  font-size: 120px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sectionAchievements text {
+  width: 60%;
+  flex-wrap: wrap;
+}
+.upper {
+  text-transform: uppercase;
+}
